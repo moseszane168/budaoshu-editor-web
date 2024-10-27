@@ -192,7 +192,7 @@ export default {
       this.axios.post('/editor/course-pack', newCourse).then((res) => {
         console.log(res);
         if (res.data.code === "0"){
-          this.$message({message: '删除成功', type: 'success'});
+          this.$message({message: '创建成功', type: 'success'});
           this.getData();
           this.showDialog = false;
         }else {

@@ -12,7 +12,12 @@ import { Message } from 'element-ui';
 import enLocale from 'element-ui/lib/locale/lang/en'
 import zhLocale from 'element-ui/lib/locale/lang/zh-CN'
 
-
+/*import { createLogto } from '@logto/vue';
+const config = {
+  endpoint: 'http://localhost:3010/',
+  appId: 'dj0hpe7wvdk1cne303o2j',
+};
+Vue.use(createLogto, config);*/
 
 // 单独引入样式文件
 import 'element-ui/lib/theme-chalk/index.css';
